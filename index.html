@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shadowstore - Products</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>Shadowstore</h1>
+            </div>
+            <div class="search-bar">
+                <input type="text" placeholder="Search products or enter max price (e.g., 'Account 500')" id="searchInput">
+                <button id="searchButton"><i class="fas fa-search"></i></button>
+            </div>
+            <div class="nav-icons">
+                <a href="#"><i class="fas fa-shopping-cart"></i> Cart</a>
+                <a href="#"><i class="fas fa-user"></i> Account</a>
+            </div>
+        </nav>
+        <div class="category-filter">
+            <button class="filter-btn active">All Products</button>
+        </div>
+    </header>
+
+    <main>
+        <div class="products-container">
+            <div class="product-card">
+                <div class="product-image">
+                    <div class="image-gallery">
+                        <img src="assets/gc5.jpg" alt="Premium Smartphone - Image 1" class="active">
+                        <img src="assets/gc51.jpg" alt="Premium Smartphone - Image 2">
+                        <img src="assets/gc52.jpg" alt="Premium Smartphone - Image 3">
+                    </div>
+                    <div class="gallery-controls">
+                        <button class="prev-btn"><i class="fas fa-chevron-left"></i></button>
+                        <button class="next-btn"><i class="fas fa-chevron-right"></i></button>
+                    </div>
+                    <div class="product-overlay">
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <h3>CHEAPEST GLACIER LEVEL 5</h3>
+                    <p class="price">₹5899 NEGOTIABLE</p>
+                    <a href="https://t.me/evilbabu" class="telegram-link" target="_blank">
+                        <i class="fab fa-telegram"></i> Contact on Telegram
+                    </a>
+                    <div class="product-description">
+                        <ul>
+                            <li>ACCOUNT LEVEL 70</li>
+                            <li>RARE TITLE ( ROYAL PASS SUPPORTER ) 👑</li>
+                            <li>TOTAL MYTHIC 57/100 ♥️</li>
+                            <li>347 PAINT AVAILABLE 🖌️</li>
+                            <li>LAB 💀💀</li>
+                            <li>GC M4 LEVEL 5 ❄️</li>
+                            <li>SAVAGERV UZI LVL 3</li>
+                            <li>MARINE UMP LVL 3</li>
+                            <li>CROSSBOW LEVEL 1</li>
+                            <li>DBS LVL 1</li>
+                            <li>THOMSON LVL 1</li>
+                            <li>NIGHTSCAPE PP-19 LVL 1</li>
+                            <li>MELODY SLR LVL 1</li>
+                            <li>TUNDRA UZI LVL 1</li>
+                            <li>THRONROSE M16A4 LVL 1</li>
+                            <li>PATCHMETAL - MK47 LVL 1</li>
+                            <li>MACHETE LVL 1</li>
+                            <li>GOLD PAN LVL 1</li>
+                            <li>FAERIE PAN LVL 1</li>
+                            <li>MANY RARE CAR SKINS AVAILABLE</li>
+                            <li>AND MUCH MORE ITEM</li>
+                            <li>WATCH FULL VIDEO 💪</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="pagination">
+            <button class="page-btn active">1</button>
+            <button class="page-btn">2</button>
+            <button class="page-btn">3</button>
+            <button class="page-btn">Next <i class="fas fa-chevron-right"></i></button>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>About Shadowstore</h3>
+                <p>India best account seller 100% safe and secure.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <p>Channel: @shadowstoreTM</p>
+                <p>Telegram: @evilbabu</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Shadowstore. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+    
+    <!-- Image Modal/Lightbox -->
+    <div id="imageModal" class="modal">
+        <span class="close-modal">&times;</span>
+        <img class="modal-content" id="modalImage">
+    </div>
+</body>
+</html> 
